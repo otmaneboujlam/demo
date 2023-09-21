@@ -7,6 +7,7 @@ import { ProductDetailsComponent } from '../shared/components/product-details/pr
 import { AppRoutingModule } from '../app-routing.module';
 import { CartComponent } from '../shared/components/cart/cart.component';
 import { ShippingComponent } from '../shared/components/shipping/shipping.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,7 +22,8 @@ import { ShippingComponent } from '../shared/components/shipping/shipping.compon
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   exports: [
     TopBarComponent,
